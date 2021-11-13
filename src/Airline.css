@@ -1,0 +1,18 @@
+h1,h2{
+    color: darkorange;
+    background-color: aqua;
+    text-align: center;
+}
+
+table{
+    margin-right: auto;
+    margin-left: auto;
+    background-color: aquamarine;
+}
+
+body {
+
+    background: url(Airport2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

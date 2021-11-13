@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SEARCH FLIGHTS</title>
+    <link   rel="stylesheet" href="Airline.css">
+
+    <script src="AirlineValidation.js"> </script>
+
+</head>
+
+<body>
+
+<h1> Welcome to AirTravel</h1>
+<h2> Login Here</h2>
+
+<a href="Home.html">Go back To Home</a>
+
+
+<form action="UserDashBoard.html">
+
+    <table border="1" ; cellpadding="3" ; cellspacing="3">
+        <tr>
+            <td><label style="color: orangered; font-size: larger">Enter username</label></td>
+            <td><input type="text" id="uname"><span id="userSpan"> </span></td>
+        </tr>
+
+        <tr>
+            <td><label style="color: orangered; font-size: larger">Enter password</label></td>
+            <td><input type="password" id="upass"><span id="passSpan"></span></td>
+        </tr>
+
+        <tr>
+            "<td colspan="2" ><input type="submit" value="Login" onclick = "return validateMyForm()"></td>
+        </tr>
+
+        <tr>
+            <td colspan ="2"> Not a member yet? <a href = "Register.html">Sign-up Here</a></td>
+        </tr>
+
+        <tr>
+            <td colspan ="2"> Forgot Password <a href = "ForgotPassword.html">Click Here</a></td>
+        </tr>
+
+
+    </table>
+
+</form>
+
+
+
+</body>
+</html>
